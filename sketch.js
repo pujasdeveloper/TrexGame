@@ -71,6 +71,8 @@ function setup() {
 function draw() {
   //trex.debug = true;
   background(255);
+  textSize(18);
+  text("My T-Rex Runner Game",235,50);
   text("Score: "+ score, 500,50);
   
   if (gameState===PLAY){
